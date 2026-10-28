@@ -1,0 +1,37 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Data (large files)
+data/benchmark_dataset/
+data/test_subset.parquet
+data/__pycache__/
+
+# Model artifacts (large)
+models/svm_model.joblib
+models/random_forest_model.joblib
+models/xgboost_model.joblib
+models/classical_feature_pipeline.joblib
+
+# Keep keras models
+!models/best_model.keras
+!models/mobilenet_model.keras
+
+# IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.key
+.github/

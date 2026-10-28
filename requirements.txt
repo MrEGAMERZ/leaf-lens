@@ -1,0 +1,14 @@
+tensorflow>=2.15,<2.22
+scikit-learn>=1.7
+xgboost>=3.0
+opencv-python-headless>=4.8
+pillow>=10.0
+streamlit>=1.60
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.18
+pyyaml>=6.0
+joblib>=1.4
+pandas>=2.0
+numpy>=1.26
+scipy>=1.11
