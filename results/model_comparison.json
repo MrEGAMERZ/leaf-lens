@@ -1,0 +1,52 @@
+{
+  "EfficientNetB0 (38 Classes)": {
+    "accuracy": 0.9702,
+    "macro_f1": 0.9702,
+    "weighted_f1": 0.9704,
+    "macro_precision": 0.9717,
+    "macro_recall": 0.9698,
+    "latency_ms": 14.85,
+    "model_size_mb": 16.82,
+    "type": "Deep Learning"
+  },
+  "MobileNetV2 (38 Classes)": {
+    "accuracy": 0.9597,
+    "macro_f1": 0.9582,
+    "weighted_f1": 0.9591,
+    "macro_precision": 0.961,
+    "macro_recall": 0.9575,
+    "latency_ms": 7.32,
+    "model_size_mb": 9.45,
+    "type": "Deep Learning"
+  },
+  "XGBoost": {
+    "accuracy": 0.9429,
+    "macro_f1": 0.9286,
+    "weighted_f1": 0.9421,
+    "macro_precision": 0.9492,
+    "macro_recall": 0.9169,
+    "latency_ms": 4.54,
+    "model_size_mb": 2.15,
+    "type": "Classical ML"
+  },
+  "Random Forest": {
+    "accuracy": 0.9064,
+    "macro_f1": 0.8792,
+    "weighted_f1": 0.9009,
+    "macro_precision": 0.9358,
+    "macro_recall": 0.8606,
+    "latency_ms": 16.98,
+    "model_size_mb": 11.68,
+    "type": "Classical ML"
+  },
+  "SVM": {
+    "accuracy": 0.895,
+    "macro_f1": 0.8658,
+    "weighted_f1": 0.8906,
+    "macro_precision": 0.9177,
+    "macro_recall": 0.8489,
+    "latency_ms": 8.98,
+    "model_size_mb": 35.56,
+    "type": "Classical ML"
+  }
+}

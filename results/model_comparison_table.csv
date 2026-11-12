@@ -1,0 +1,6 @@
+model,accuracy,macro_f1,weighted_f1,macro_precision,macro_recall,latency_ms,model_size_mb,type
+EfficientNetB0 (38 Classes),0.9702,0.9702,0.9704,0.9717,0.9698,14.85,16.82,Deep Learning
+MobileNetV2 (38 Classes),0.9597,0.9582,0.9591,0.961,0.9575,7.32,9.45,Deep Learning
+XGBoost,0.9429,0.9286,0.9421,0.9492,0.9169,4.54,2.15,Classical ML
+Random Forest,0.9064,0.8792,0.9009,0.9358,0.8606,16.98,11.68,Classical ML
+SVM,0.895,0.8658,0.8906,0.9177,0.8489,8.98,35.56,Classical ML
